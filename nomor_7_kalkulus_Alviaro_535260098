@@ -1,0 +1,12 @@
+#soal nomor 7
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-1, 1, 100)
+y = np.arccos(3 * x)
+
+plt.plot(x, y, label="y = arc cos(x)")
+plt.grid(True)
+plt.legend()
+
+plt.show()
